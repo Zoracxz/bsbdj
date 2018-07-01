@@ -1,0 +1,11 @@
+
+mybatis:
+  mapper-locations: classpath:/mybatis/mapper/*.xml
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/bsbdj
+    username: root
+    password: root
+  thymeleaf:
+    cache: false
